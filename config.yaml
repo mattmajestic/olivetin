@@ -1,0 +1,10 @@
+actions:
+  - title: "Hello world!"
+    shell: echo 'Hello World!'
+  - title: "Restart media container"
+    shell: docker restart mediacontainer
+    icon: box
+  - title: "Check disk space"
+    icon: disk
+    shell: df -h /media
+    # popupOnStart: execution-dialog-stdout-only

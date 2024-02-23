@@ -1,0 +1,8 @@
+version: '3'
+services:
+  olivetin:
+    image: jamesread/olivetin:latest
+    ports:
+      - "1337:1337"
+    volumes:
+      - ./config.yaml:/config/config.yaml
